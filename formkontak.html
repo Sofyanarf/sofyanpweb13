@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="form-kontak">
+        <div class="containerr">
+            <h3>Form Saran & pesan</h3>
+            <form action="website.php" method="POST">
+                <div class="kolom-4">
+                    <input type="text" name="nama" placeholder="masukkan nama" required>
+                </div>
+                <div class="kolom-4">
+                    <input type="email" name="email" placeholder="masukkan email" required>
+                </div>
+                <div class="kolom-4">
+                    <input type="text" name="subjek" placeholder="subjek" required>
+                </div>
+                <div class="kolom-4">
+                    <textarea name="pesan" rows="5" placeholder="saran dan pesan" required></textarea>
+                </div>
+                <div class="kolom-4">
+                    <button type="submit" value="submit">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

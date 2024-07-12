@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="form-pendaftaran">
+        <div class="containerr">
+            <h3>Form Program Studi</h3>
+            <form action="website.php" method="POST">
+                <div class="kolom-4">
+                    <input type="text" name="nama_lengkap" placeholder="masukkan nama anda" required>
+                </div>
+                <div class="kolom-4">
+                    <input type="date" name="tanggal_lahir" required>
+                </div>
+                <div class="kolom-4">
+                    <input type="text" name="alamat" placeholder="masukkan alamat" required>
+                </div>
+                <div class="kolom-4">
+                    <select name="jenis_kelamin" required>
+                        <option value="" disabled selected>Gender</option>
+                        <option value="male">male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="kolom-4">
+                    <select name="program_studi" required>
+                        <option value="" disabled selected>Pilih Program</option>
+                        <option value="informatika">Informatika</option>
+                        <option value="sistem informasi">Sistem Informasi</option>
+                        <option value="desain grafis">Desain Grafis</option>
+                        <option value="multimedia">Multimedia</option>
+                    </select>
+                </div>
+                <div class="kolom-4">
+                    <button type="submit" value="submit">Simpan</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Nama Lengkap: nana
+Tanggal Lahir: 2024-07-11
+Alamat: klaten
+Jenis Kelamin: female
+Program Studi: informatika
+
